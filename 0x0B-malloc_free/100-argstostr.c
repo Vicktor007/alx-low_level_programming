@@ -34,6 +34,8 @@ for (b = 0; av[a][b] != '\0'; b++)
 str[c] = av[a][b];
 c++;
 }
-{
+str[c] = '\n';
+c++;
+}
 return (str);
 }
