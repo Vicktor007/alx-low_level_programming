@@ -4,7 +4,7 @@
  * @b: number of memory
  * Return void
  */
-void 8malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 void *p;
 p = malloc(b);
