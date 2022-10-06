@@ -4,8 +4,7 @@
  * @s1: first string
  * @s2: second string
  * @n: index
- * Return:
- * char pointer
+ * Return: char pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -29,6 +28,10 @@ p = malloc((size1 + n + 1) * sizeof(char));
 if (p == NULL)
 return (0);
 for (i = 0; i < size1; i++)
+{
+p[i] = s1[i];
+}
+for (; i < (size1 + n); i++)
 {
 p[i] = s2[i - size1];
 }
