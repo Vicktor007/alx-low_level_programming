@@ -11,8 +11,8 @@ return (a + b);
 }
 /**
  * op_sub - calculates the difference of two integers
- * first integer
- * second integer
+ * @a: first integer
+ * @b: second integer
  * Return: difference of a and b
  */
 int op_sub(int a, int b)
