@@ -2,7 +2,6 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 /**
- *
  * array_iterator - iterates through array
  * @array: array to go through
  * @size: size of array
