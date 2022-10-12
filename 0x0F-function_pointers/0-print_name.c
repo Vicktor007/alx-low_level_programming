@@ -5,9 +5,9 @@
  * @name: name to print
  * @f: pointer to the print
  */
-void print_name(char *victor, void (*f)(char *))
+void print_name(char name, void (*f)(char *))
 {
-if (!victor || !f);
+if (!name || !f);
 return;
-f(victor);
+f(name);
 }
