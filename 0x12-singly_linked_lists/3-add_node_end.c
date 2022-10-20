@@ -22,6 +22,7 @@ new->len = nchar;
 new->next = NULL;
 temp = *head;
 if (temp == NULL)
+{
 *head = new;
 }
 else
