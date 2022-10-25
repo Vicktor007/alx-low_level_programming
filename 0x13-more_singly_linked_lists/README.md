@@ -12,4 +12,4 @@
 11. a function that reverses a listint_t linked list.
 12. a function that prints a listint_t linked list.
 13. a function that frees a listint_t list.
-14.  a function that finds the loop in a linked list.
+14.  a function that finds the loop in a linked list..
